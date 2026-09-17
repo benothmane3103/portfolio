@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Othmane Benlahbib — UI/UX Designer creating clear, intuitive mobile and web products." />
+  <meta name="theme-color" content="#05070b" />
+  <title>Othmane Benlahbib — UI/UX Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <header class="nav-shell">
+    <a class="brand" href="#top" aria-label="Back to top"><span>OB</span><i></i></a>
+    <nav aria-label="Main navigation">
+      <a href="#work" id="nav-work">Work</a>
+      <a href="#about" id="nav-about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions"><button class="nav-toggle" id="language-toggle" type="button" aria-label="Change language">FR</button><button class="nav-toggle theme-toggle" id="theme-toggle" type="button" aria-label="Change color theme">☀</button><a class="availability" href="#contact"><span></span><b id="availability-text">Available for work</b></a></div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-portrait" aria-hidden="true">
+        <span>PRODUCT DESIGN · UI/UX</span>
+        <img src="assets/othmane-benlahbib.png" alt="" />
+        <i>03+ YEARS<br />EXPERIENCE</i>
+      </div>
+      <div class="hero-shade"></div>
+      <div class="hero-copy">
+        <p class="eyebrow" id="hero-eyebrow">UI/UX DESIGNER · MOROCCO</p>
+        <h1 id="hero-title">I design digital<br />experiences that<br /><em>feel effortless.</em></h1>
+        <p class="hero-intro" id="hero-intro">From first user flow to polished interface, I turn complex ideas into clear, thoughtful mobile and web products.</p>
+        <div class="hero-actions">
+          <a class="btn primary" id="explore-work" href="#work">Explore selected work <span>↘</span></a>
+          <a class="btn ghost" id="email-hero" href="mailto:benothmane3103@gmail.com">Let’s work together</a>
+        </div>
+      </div>
+      <div class="hero-index"><span>Morocco</span><span>Mobile & Web</span><span>Open to work</span></div>
+    </section>
+
+    <section class="work section" id="work" aria-labelledby="work-title">
+      <div class="section-head reveal">
+        <div><p class="eyebrow" id="work-eyebrow">SELECTED WORK · 2024—2026</p><h2 id="work-title">Projects built around<br />real user needs.</h2></div>
+        <p id="work-intro">Mobile apps, platforms and dashboards shaped through research, structure and precise visual design.</p>
+      </div>
+      <div class="projects" id="projects"></div>
+    </section>
+
+    <dialog class="gallery-dialog" id="gallery-dialog">
+      <div class="gallery-shell">
+        <div class="gallery-head">
+          <div><p class="eyebrow">PROJECT GALLERY</p><h2 id="gallery-title">Project screens</h2></div>
+          <button class="gallery-close" type="button" aria-label="Close project gallery">×</button>
+        </div>
+        <div class="gallery-grid" id="gallery-grid"></div>
+      </div>
+    </dialog>
+
+    <section class="about section" id="about" aria-labelledby="about-title">
+      <div class="about-statement reveal">
+        <p class="eyebrow" id="about-eyebrow">ABOUT</p>
+        <h2 id="about-title">Good design is quiet.<br />It removes friction and lets<br /><em>the product speak.</em></h2>
+      </div>
+      <div class="about-grid reveal">
+        <p id="bio"></p>
+        <div class="facts">
+          <div><span>Based in</span><strong>Tamesna, Morocco</strong></div>
+          <div><span>Focus</span><strong>Mobile & Web Products</strong></div>
+          <div><span>Experience</span><strong>3+ Years</strong></div>
+          <div><span>Languages</span><strong>Arabic · French · English</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section" aria-labelledby="skills-title">
+      <div class="section-head reveal">
+        <div><p class="eyebrow" id="skills-eyebrow">CAPABILITIES</p><h2 id="skills-title">How I shape a product.</h2></div>
+      </div>
+      <div class="skill-list" id="skills-list"></div>
+    </section>
+
+    <section class="education section reveal" aria-labelledby="education-title">
+      <p class="eyebrow" id="education-eyebrow">EDUCATION</p>
+      <h2 id="education-title">Built on design practice<br />and constant curiosity.</h2>
+      <div class="timeline">
+        <article><span>2026—PRESENT</span><div><h3 id="ensad-title">Graphic & Interactive Design Student</h3><p id="ensad-school">ENSAD Mohammedia · DGI</p></div></article>
+        <article><span>2023—2025</span><div><h3>Diploma in Digital UI Design</h3><p>CMC Rabat–Salé–Kénitra · OFPPT</p></div></article>
+        <article><span>2022—2023</span><div><h3>Baccalaureate · Physical & Chemical Sciences</h3><p>Lycée Ahmed Bouanani</p></div></article>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact" aria-labelledby="contact-title">
+      <div class="contact-copy reveal">
+        <p class="eyebrow" id="contact-eyebrow">HAVE A PROJECT IN MIND?</p>
+        <h2 id="contact-title">Let’s create something<br /><em>worth remembering.</em></h2>
+        <a class="mail-link" href="mailto:benothmane3103@gmail.com">benothmane3103@gmail.com <span>↗</span></a>
+      </div>
+      <footer>
+        <p>© <span id="year"></span> Othmane Benlahbib</p>
+        <div id="socials"></div>
+        <a href="#top">Back to top ↑</a>
+      </footer>
+    </section>
+  </main>
+
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

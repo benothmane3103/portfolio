@@ -1,0 +1,13 @@
+.case-actions { display:flex; align-items:center; gap:8px; }
+.nav-toggle { width:38px; height:38px; padding:0; color:#cbd2df; background:rgba(255,255,255,.055); border:1px solid var(--line); border-radius:50%; font:500 10px "DM Mono",monospace; cursor:pointer; }
+#theme-toggle { font-size:15px; }
+html[data-theme="light"] { --bg:#eef2f7; --surface:#fff; --line:rgba(15,23,42,.14); --text:#101725; --muted:#5f6979; }
+html[data-theme="light"] body { background:#eef2f7; }
+html[data-theme="light"] .case-nav { background:rgba(245,248,252,.84); }
+html[data-theme="light"] .case-hero { background:radial-gradient(circle at 80% 25%,rgba(38,117,255,.16),transparent 42%),linear-gradient(145deg,#fff,#e7edf5); }
+html[data-theme="light"] .case-hero.gold { background:radial-gradient(circle at 80% 25%,rgba(201,159,15,.2),transparent 42%),linear-gradient(145deg,#fff,#f3eedb); }
+html[data-theme="light"] .case-hero.violet { background:radial-gradient(circle at 80% 25%,rgba(139,54,255,.16),transparent 42%),linear-gradient(145deg,#fff,#eee7fa); }
+html[data-theme="light"] .lede,html[data-theme="light"] .case-story p { color:#536073; }
+html[data-theme="light"] figure { background:#fff; }
+html[data-theme="light"] .nav-toggle,html[data-theme="light"] .back-link { color:#263143; }
+.desktop-screens .tall-screen { width:min(100%,440px); margin-inline:auto; }
